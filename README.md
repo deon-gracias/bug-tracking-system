@@ -2,14 +2,7 @@
 
 ## Tech Stack
 
-### Frontend
-
 - Next JS (with React and TypeScript)
-
-### Backend
-
-- Node JS with Express (API)
-- MongoDB
 
 ### Hosting
 
@@ -20,6 +13,7 @@
 - Do research on
     - Database Schema
     - UI Design
+- Learn Next.js
 
 # Ideas
 

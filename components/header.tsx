@@ -34,11 +34,11 @@ const Header = ({ login }: IHeader) => {
 
         {/* Login Button */}
         {login && (
-          <Button className={classes.headerLoginBtn}>
-            <Link href="/login">
+          <Link href="/login">
+            <Button className={classes.headerLoginBtn}>
               <a>Login</a>
-            </Link>
-          </Button>
+            </Button>
+          </Link>
         )}
       </div>
     </MHeader>

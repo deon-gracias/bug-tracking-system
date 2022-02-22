@@ -147,7 +147,7 @@ export function AuthenticationForm({
 
       {!noSubmit && (
         <Group position="apart" mt="xl">
-          <Anchor size="sm">
+          <Anchor component="p" size="sm">
             {formType === "register" ? (
               <Link href="/login">
                 <a>Have an account? Login</a>

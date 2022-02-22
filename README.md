@@ -3,6 +3,7 @@
 ## Tech Stack
 
 - Next JS (with React and TypeScript)
+- Mantine (UI component library)
 
 ### Hosting
 
@@ -11,8 +12,8 @@
 # TODO
 
 - Do research on
-    - Database Schema
-    - UI Design
+  - Database Schema
+  - UI Design
 - Learn Next.js
 
 # Ideas
@@ -22,4 +23,4 @@
 # Useful Links
 
 - CSS
-    - [Resetting CSS](https://piccalil.li/blog/a-modern-css-reset/)
+  - [Resetting CSS](https://piccalil.li/blog/a-modern-css-reset/)

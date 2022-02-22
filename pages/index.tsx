@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Router from "next/router";
 
 // Mantine
 import { createStyles } from "@mantine/styles";
@@ -9,6 +10,11 @@ import Layout from "../components/layout";
 
 const Home: NextPage = () => {
   const { classes } = useStyles();
+
+  const loggedIn = true;
+
+  // Push to projects page if authenticates
+  loggedIn && Router.push("/projects");
 
   return (
     <Layout login>

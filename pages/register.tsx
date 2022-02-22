@@ -9,7 +9,7 @@ import { Container, Paper, Center, SimpleGrid } from "@mantine/core";
 import { AuthenticationForm as AuthForm } from "../components/authForm";
 import Layout from "../components/layout";
 
-const Login = () => {
+const Register = () => {
   return (
     <Layout>
       <Head>
@@ -34,4 +34,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Register;

@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Head from "next/head";
 
 // Mantine
 import { createStyles } from "@mantine/styles";
@@ -11,6 +12,9 @@ const Home: NextPage = () => {
 
   return (
     <Layout login>
+      <Head>
+        <title>deBug</title>
+      </Head>
       <div className={classes.heroContainer}>
         <img src="/images/hero-img-dark.svg" className={classes.heroImage} />
         <div className={classes.heroText}>

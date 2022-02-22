@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Head from "next/head";
 
 // Mantine
 import { useForm } from "@mantine/hooks";
@@ -11,6 +12,9 @@ import Layout from "../components/layout";
 const Login = () => {
   return (
     <Layout>
+      <Head>
+        <title>Login</title>
+      </Head>
       <Center>
         <Paper
           sx={{ width: "100%", maxWidth: "500px", margin: "4em 0" }}

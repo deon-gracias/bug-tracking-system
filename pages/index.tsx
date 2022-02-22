@@ -45,7 +45,7 @@ const useStyles = createStyles((theme) => ({
     flexDirection: "column",
     flexWrap: "wrap",
     gap: "1rem",
-    "& h1:nth-child(even)": {
+    "& h1:nth-of-type(even)": {
       color: theme.primaryColor,
     },
     [`@media (max-width: ${theme.breakpoints.sm}px)`]: {
